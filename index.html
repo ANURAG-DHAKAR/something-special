@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTanAiV2MuEdnrqx4QmVAly9_pLduI0V3w00g&s">
+    <title>For Someone Special ❤️</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        .fade-section {
+            opacity: 0;
+            transform: translateY(60px);
+            transition: all 1s ease;
+        }
+
+        .fade-left {
+            transform: translateX(-80px);
+        }
+
+        .fade-left.show {
+            transform: translateX(0);
+        }
+
+        .fade-section.show {    
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #fff5f7;
+            scroll-behavior: smooth;
+        }
+
+        .cursive {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .heart {
+            color: #ff4d6d;
+            animation: beat 1s infinite alternate;
+        }
+
+        @keyframes beat {
+            to {
+                transform: scale(1.2);
+            }
+        }
+
+        .hidden-section {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="text-gray-800">
+
+    <section class="fade-section h-screen flex flex-col items-center justify-center text-center p-5 bg-pink-50">
+        <h1 class="text-5xl md:text-7xl cursive mb-4 text-pink-600">Hey... Priyanshi ✨</h1>
+        <p class="text-lg md:text-xl text-gray-600 max-w-2xl">Shayad lafz kam pad jaaye… par jo mehsoos karta hoon, aaj tumhe batana zaroori tha ✨</p>
+        <div class="mt-10 animate-bounce">
+            <a href="#journey" class="text-pink-400 text-4xl">↓</a>
+        </div>
+    </section>
+
+    <section id="journey" class="fade-section py-20 px-5 max-w-4xl mx-auto">    
+        <h2 class="text-4xl cursive text-center text-pink-500 mb-12">Humari Choti si Kahani</h2>
+
+        <div class="border-l-4 border-pink-200 ml-4 md:ml-0 md:mx-auto">
+            <div class="mb-10 ml-6 relative">
+                <span
+                    class="absolute -left-10 bg-pink-500 w-8 h-8 rounded-full flex items-center justify-center text-white">1</span>
+                <h3 class="font-bold text-xl">Pehli Mulaqat 🤝</h3>
+                <p class="text-gray-600 italic">"Jab maine pehli baar tumhein dekha tha, waqt wahin ruk gaya tha."</p>
+            </div>
+            <div class="mb-10 ml-6 relative">
+                <span
+                    class="absolute -left-10 bg-pink-500 w-8 h-8 rounded-full flex items-center justify-center text-white">2</span>
+                <h3 class="font-bold text-xl">Wo Lambi Baatein 📞</h3>
+                <p class="text-gray-600 italic">"Tumhare saath ghanton baat karna meri din ka sabse best part ban gaya."
+                </p>
+            </div>
+            <div class="mb-10 ml-6 relative">
+                <span
+                    class="absolute -left-10 bg-pink-500 w-8 h-8 rounded-full flex items-center justify-center text-white">3</span>
+                <h3 class="font-bold text-xl">The Realization ❤️</h3>
+                <p class="text-gray-600 italic">"Mujhe samajh aaya ki tum sirf ek dost nahi, usse bohot zyada ho."</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-pink-600 py-16 text-white text-center">
+        <h2 class="text-4xl cursive mb-8">Why You?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-10">
+            <div class="p-4 border border-pink-400 rounded-lg">
+                <p class="text-3xl">✨</p>
+                <p>Tumhari smile jo mera din bana deti hai.</p>
+            </div>
+            <div class="p-4 border border-pink-400 rounded-lg">
+                <p class="text-3xl">☺️</p>
+                <p>Tumari Harkate jo mera dil khush karte hain.</p>
+            </div>
+            <div class="p-4 border border-pink-400 rounded-lg">
+                <p class="text-3xl">🔥</p>
+                <p>Tumhari baate hayee </p>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 px-5 fade-section bg-white text-center">
+        <h2 class="text-4xl cursive text-pink-500 mb-12"> Beautiful Moments 📸</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <img src="images/12.jpeg" class="rounded-2xl shadow-lg hover:scale-105 transition">
+            <img src="images/2.jpeg" class="rounded-2xl shadow-lg hover:scale-105 transition">
+            <img src="images/3.jpeg" class="rounded-2xl shadow-lg hover:scale-105 transition">
+            <img src="images/4.jpeg" class="rounded-2xl shadow-lg hover:scale-105 transition">
+            <img src="images/5.jpeg" class="rounded-2xl shadow-lg hover:scale-105 transition">
+            <img src="images/14.jpeg" class="rounded-2xl shadow-lg hover:scale-105 transition">
+        </div>
+    </section>
+
+    <section class="bg-pink-50 py-20 px-5 fade-section text-center">
+        <h2 class="text-4xl cursive text-pink-500 mb-10">Kuch Sabadh❤️</h2>
+
+        <div class="max-w-3xl mx-auto text-xl italic text-gray-700 space-y-6">
+            <p>🌸🌿🤝</p>
+            <p>"Pyaas To Paani Se Bujhegi Mai Sharab Ka Kya Karunga ??"</p>
+
+            <p>"Aur Teri Kami, Tujhse Hi Poori Hogi Mai Kisi Aur Ka Kya Karunga..?</p>
+
+        </div>
+    </section>
+
+    <section class="py-20 px-5 bg-pink-600 text-white text-center">
+        <h2 class="text-4xl cursive mb-6">We Share Our Songs 🎧</h2>
+        <p class="mb-8">Song For You ❤️</p>
+
+        <a href="https://www.youtube.com/watch?v=mt9xg0mmt28">
+            <img src="images/download.jpg" class="mx-auto rounded-2xl shadow-xl hover:scale-105 transition"
+                alt="Our Playlist">
+        </a>
+
+        <p class="mt-6 text-lg">Sunna zaroor… har song me meri feelings hai 💕</p>
+    </section>
+    <section class="h-screen flex flex-col items-center justify-center text-center p-5 relative overflow-hidden"
+        id="proposal">
+        <h2 id="questionText" class="text-4xl fade-left fade-section md:text-6xl font-bold mb-10">Will you be mine...? 💍</h2>
+
+        <div class="flex space-x-6" id="btnGroup">
+            <button onclick="celebrate()"
+                class="bg-green-500 hover:bg-green-600 text-white px-10 py-4 rounded-full text-xl font-bold transition-all transform hover:scale-110">
+                YES! 😍
+            </button>
+            <button id="noBtn" onmouseover="moveButton()"
+                class="bg-red-500 text-white px-10 py-4 rounded-full text-xl font-bold transition-all">
+                No 😢
+            </button>
+        </div>
+
+        <div id="successMessage" class="hidden-section mt-10">
+            <h1 class="text-5xl md:text-7xl cursive text-pink-600">I Love You! ❤️</h1>
+            <p class="text-xl mt-4">Ab screenshot lelo aur mujhe bhejo! 😉</p>
+        </div>
+    </section>
+
+    <script>
+        // No button move logic
+        function moveButton() {
+            const btn = document.getElementById('noBtn');
+            const x = Math.random() * (window.innerWidth - btn.offsetWidth);
+            const y = Math.random() * (window.innerHeight - btn.offsetHeight);
+            btn.style.position = 'absolute';
+            btn.style.left = x + 'px';
+            btn.style.top = y + 'px';
+        }
+
+        // Yes button celebration
+        function celebrate() {
+            // Confetti effect
+            confetti({
+                particleCount: 150,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+
+            // UI Changes
+            document.getElementById('btnGroup').classList.add('hidden-section');
+            document.getElementById('questionText').classList.add('hidden-section');
+            document.getElementById('successMessage').style.display = 'block';
+
+            // Background color change
+            document.body.style.background = "#fff";
+        }
+
+        const faders = document.querySelectorAll(".fade-section");
+
+        const appearOptions = {
+            threshold: 0.3
+        };
+
+        const appearOnScroll = new IntersectionObserver(function (entries, observer) {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) return;
+                entry.target.classList.add("show");
+                observer.unobserve(entry.target);
+            });
+        }, appearOptions);
+
+        faders.forEach(fader => {
+            appearOnScroll.observe(fader);
+        });
+    </script>
+</body>
+
+</html>
